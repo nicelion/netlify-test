@@ -33,7 +33,7 @@
 	<input name="email" id="email" required placeholder="Email" type="email" />
 	<label for="message">Message</label>
 	<input name="message" id="message" required placeholder="Message" type="text" />
-	<input type="text" value="about" hidden>
+	<input type="text" id="location" value="about" hidden>
 
 	<input type="submit" value="Submit" />
   </form>

@@ -27,7 +27,7 @@
 
 	<Counter />
 
-	<form name="contact" method="POST" data-netlify="true">
+	<form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
 		<p>
 		  <label>Your Name: <input type="text" name="name" /></label>
 		</p>
